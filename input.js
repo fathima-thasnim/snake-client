@@ -25,7 +25,19 @@ const setupInput = function(conn) {
         break;
       case 'd':
         connection.write("Move: right");
-        break;  
+        break;
+      case 'i':
+        connection.write("Say: hmm");
+        break; 
+      case 'j':
+        connection.write("Say: hey");
+        break; 
+      case 'k':
+        connection.write("Say: hai");
+        break; 
+      case 'l':
+        connection.write("Say: lol");
+        break;    
     }
   });
   return stdin;
